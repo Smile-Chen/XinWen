@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/one_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:layout_marginRight="160dp"
+        android:ellipsize="end"
+
+        android:text="sss"
+        />
+
+    <TextView
+        android:id="@+id/one_tv_ping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/one_iv_image"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#cc00ff"
+        />
+
+    <TextView
+        android:id="@+id/one_tv_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/one_iv_image"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/one_tv_ping"
+        android:layout_toRightOf="@+id/one_tv_ping"
+        android:textSize="20dp"
+        android:textColor="#ff3366" />
+
+
+    <ImageView
+        android:id="@+id/one_iv_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="right" />
+
+</RelativeLayout>
